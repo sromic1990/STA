@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c000009a8e1cf4528b0a82de290f0726
+timeCreated: 1496325602
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - OneShotSFXGo: {fileID: 180032, guid: cc801f71116824c9cb5bfe3ed4d2665b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

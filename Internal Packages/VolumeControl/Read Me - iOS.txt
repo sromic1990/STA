@@ -1,0 +1,29 @@
+Read Me - iOStry
+=======
+
+To use this Native code Folow this step
+
+Before Export XCode
+-------------------
+1. Find the Bridging Header file (name endswith "-Bridging-Header.h")
+2. Reaname it and Add bundle id's last id in starting of it "<<last_id>>-Bridging-Header.h"
+	ie.
+		if bundle id is "com.gameanax.testapp" so file name is "testapp-Bridging-Header.h"
+		if bundle id is "com.gameanax.test.soundcontrol" so file name is "soundcontrol-Bridging-Header.h"
+3. Open "VoiceControl.mm" file Replace #import "<<other_last_id>>-Swift.h" with "<<last_id>>-Swift.h"
+	ie.
+		if bundle id is "com.gameanax.testapp" so file name is "testapp-Swift.h"
+		if bundle id is "com.gameanax.test.soundcontrol" so file name is "soundcontrol-Swift.h"
+4. Now build and export XCode
+
+After Export XCode
+------------------
+1. Select Main Project in "Project Navigator" and Select Project "Unity-iPhone"
+2. Navigate to "Build Setting" and Type "SWIFT" in serach bar of "Build Settings"
+3. Find "Swift Language Version" in "Swift Complier - Version" group and set "Swift 3" as Target Swift Version
+4. Now find  Bridging Header File which you have renamed before export project in "Project Navigator"
+5. Find "Objctive-C Bridging Header" under "Swift Complier - General" group in build setting of Project.
+6. Double Click on "Objctive-C Bridging Header" and open a window to enter path
+7. Now Drag-n-Drop Bridging file from "Project Navigator" in that window, which will add File name with full path of the file
+8. Find "Always Embed Swift Standrad Libraries" under "Build Option" in "Project" = "Build Settings" and set "Yes" / "true"
+9. Find "Runpath Search paths" under "Linking" in "Build Option" in "Project" = "Build Settings" and add "@executable_path/Frameworks" if not in run path list

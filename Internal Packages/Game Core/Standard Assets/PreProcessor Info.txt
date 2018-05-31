@@ -1,0 +1,45 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+EX2D_;MYDEBUG_;GUIPRINT_;FBUNITYSDK_;
+STOREKIT_;GAMECENTER_;
+ETCETERA_;SOCIALNETWORKING_;
+ADMOB_;CHARTBOOST_;ADCOLONY_;INMOBI_;
+WEBSERVICES_;PUSHNOTIFICATION_;FILELOGGER_;CPROFILETAG_;BOTPLAY_
+GPGSERVIES_;GOOGLEIAB_;
+AMAZONSTORE_;GAMECIRCLE_;UNDERGROUND_;
+
+
+Pre-Processors
+--------------
+GUIPRINT;					Show OnGUI Prints which are marked for debug only
+MYDEBUG;					Print all debugs using MyDebug
+FILELOGGER;					
+CPROFILETAG;				It will breakdown AI Scan board method in Unity profiler in small task. this Processor is used only for Unity Profiler TAG
+
+EX2D;						Uses EX2D for Bitmap font and 9 Patch Border (Used in button script)
+FBUNITYSDK;					Uses Facebook Unity Ofical SDK
+BOTPLAY;					Uses Code will work with AI / BOT System.
+
+
+WEBSERVICES;				Check and work With Web Serives for Multiplayer
+PUSHNOTIFICATION;			Check and receive Push notification
+
+
+ADMOB;						Use GoogleMobieAds GitHub Based Plugin
+CHARTBOOST;					Use Prime31 Chartboost Plugin for Ads
+ADCOLONY;					Use AdColony Orignal Plugin for Video Ads
+INMOBI;						Use InMobi Orignal Plugin for Ads
+
+ETCETERA;					Use Prime31 Etcetra Plugin
+SOCIALNETWORKING;			Use Prime31 Socialnetwork Plugin for Twitter or Native Social share (iOS Only)
+
+STOREKIT;					Use Prime31 Storekit plugin for Apple InApp Plugin (iOS Only)
+GAMECENTER;					Use Prime31 Gamecenter plugin for Apple Leaderboard and Achievements (iOS Only)
+
+GPGSERVIES;					Use Prime31 Google Playe Game Services for Leaderbaord and Achievements (Google Play Store Only)
+GOOGLEIAB					Use Prime31 Google Billing Service Code for Unity
+
+
+AMAZONSTORE;				Use IDs of Amazon Regular Store
+UNDERGROUND;				Use IDs of Amazon Underground Store
+GAMECIRCLE;					Amazon Gamecircle for Leaderboard and Achievements (Amazon Store Only)
+===================================================================================================================================
